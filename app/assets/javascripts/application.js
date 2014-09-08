@@ -20,23 +20,6 @@ $(document).ready(function() {
 
 	$('.datetimepicker').datetimepicker();
 
-	// $('.submit-time').click(function() {
-	// 	var start_time = $('#parkingspot_start_time').val();
-	// 	var end_time = $('#parkingspot_end_time').val();
-
-	// 	$.ajax({
-	// 		url: '/overlap',
-	// 		type: 'POST',
-	// 		data: {
-	// 			start_time: start_time,
-	// 			end_time: end_time
-	// 		},
-	// 		success: function(data) {
-	// 			$('.overlaps').append()
-	// 		}
-	// 	});
-	// });
-
 
 });
 
