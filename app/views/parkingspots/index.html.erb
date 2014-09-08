@@ -1,0 +1,13 @@
+<div class="container">
+	<div class="parking-form col-md-6 col-md-offset-3">
+		<%= simple_form_for @parkingspot, :url => "/overlap", method: :post, remote: true do |f| %>
+			<%= f.text_area :start_time, :class => "datetimepicker" %>
+			<%= f.text_area :end_time, :class => "datetimepicker" %>
+		<div>
+		  <%= f.button :submit, "Submit", :class=> "btn btn-primary submit-time" %>
+		</div>
+		<% end %>
+		<div class="overlaps">
+		</div>
+	</div>
+</div>
